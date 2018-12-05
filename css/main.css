@@ -1,0 +1,21 @@
+#search {
+  width: 55%;
+  padding-left: 20px;
+  height: 44px;
+  font-size: 14px;
+  border-radius: 22px;
+  background-color: #f2f2f2;
+  border: none;
+  max-width: 560px;
+}
+
+.google-logo,
+#search {
+  margin: 0 auto;
+  display: block;
+}
+
+.google-logo {
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
