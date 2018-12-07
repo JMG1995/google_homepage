@@ -39,3 +39,38 @@
   margin: 20px auto;
   text-align: center;
 }
+
+.square,
+.round {
+  background: lightgrey;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.square,
+.round,
+.text,
+.account {
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.account {
+  background: lightgrey;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.top-container {
+  width: 50%;
+  margin: 0 50%;
+  text-align: right;
+}
