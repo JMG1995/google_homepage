@@ -1,5 +1,5 @@
 #search {
-  width: 55%;
+  width: 100%;
   padding-left: 20px;
   height: 44px;
   font-size: 14px;
@@ -7,6 +7,7 @@
   background-color: #f2f2f2;
   border: none;
   max-width: 560px;
+  outline: none;
 }
 
 .google-logo,
@@ -17,5 +18,24 @@
 
 .google-logo {
   margin-bottom: 20px;
-  margin-top: 150px;
+  margin-top: 200px;
+}
+
+.circle {
+  height: 48px;
+  width: 48px;
+  background: lightgrey;
+  border-radius: 50%;
+  margin: 20px 5%;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.circle-container {
+  margin: 20px auto;
+  text-align: center;
 }
