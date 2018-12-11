@@ -1,14 +1,18 @@
 * {
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
+  box-sizing: border-box;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  margin: 20px;
+  grid-template-columns: repeat(1fr, 2);
+  grid-template-rows: 30px auto;
+  align-items: center;
 }
 
-.container {
+.search-container {
   grid-column: span 2;
   margin: 0 auto;
   text-align: center;
@@ -22,4 +26,39 @@
   padding: 5px 8px 0 16px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-radius: 2px;
+}
+
+.google-square {
+  opacity: 0.55;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.left-text span,
+.right-text img,
+.right-text button,
+.right-text span {
+  margin: 0 8px;
+}
+
+.right-text {
+  text-align: right;
+}
+
+.right-text button {
+  font-weight: 600;
+  background: linear-gradient(#4387fd, #4285f4);
+  font-size: 13px;
+  color: #fff;
+  padding: 6px 12px;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+}
+
+img.google-logo {
+  margin-bottom: 25px;
+}
+
+.search-container {
+  margin-top: 150px;
 }
