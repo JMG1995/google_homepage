@@ -14,7 +14,7 @@
 
 .search-container {
   grid-column: span 2;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
 }
 
@@ -61,4 +61,23 @@ img.google-logo {
 
 .search-container {
   margin-top: 150px;
+}
+
+.button-container {
+  grid-column: span 2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button-container div {
+  color: #777;
+  font-weight: 600;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+  margin: 0 4px;
+  border-radius: 3px;
+  background: #f2f2f2;
+  display: inline-block;
+  padding: 11px 16px;
+  box-shadow: none;
 }
