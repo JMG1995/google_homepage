@@ -16,16 +16,27 @@
   grid-column: span 2;
   margin: 30px auto;
   text-align: center;
+  width: 484px;
 }
 
 #search {
   height: 44px;
   width: 100%;
+  background-image: url(../images/googlemic.png);
+  background-size: 24px;
+  background-position: 95%;
+  background-repeat: no-repeat;
   background-color: #ffff;
-  border: 1px solid lightgrey;
+  border: none;
   padding: 5px 8px 0 16px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   border-radius: 2px;
+}
+
+#search:hover,
+#search:focus {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  outline: none;
 }
 
 .google-square {
@@ -80,4 +91,11 @@ img.google-logo {
   display: inline-block;
   padding: 11px 16px;
   box-shadow: none;
+}
+
+.button-container div:hover {
+  background-color: #f8f8f8;
+  color: #222;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
